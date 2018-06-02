@@ -1,0 +1,9 @@
+ID      Quize1  Quize2  Quize3  Midterm   Final   NumericGrade   LetterGrade    
+S001       10      10      10      100     100           100           A
+S002        7       5       9       90     100            89           B
+S003       10       6       6       60      84            72           C
+S004        7       8       5       80      95            81           B
+S005        2       3       6       40      85            56           F
+S006        5       6       5       90      60            68           D
+S007       10       7       6       20      50            45           F
+S008        4       2       6       60      56            53           F
