@@ -1,0 +1,9 @@
+6                        perfect         
+8                        nonperfect      
+9                        nonperfect      
+28                       perfect         
+168                      nonperfect      
+469                      nonperfect      
+53                       nonperfect      
+1253                     nonperfect      
+4848                     nonperfect      
