@@ -341,7 +341,7 @@ public class LFS_GUI extends JFrame
 
 		lblSecond.setHorizontalAlignment( 0 ) ;
 		GridBagConstraints gbc_lblSecond = new GridBagConstraints() ;
-		gbc_lblSecond.insets = new Insets(0, 0, 5, 5);
+		gbc_lblSecond.insets = new Insets(0, 0, 5, 0);
 		gbc_lblSecond.gridx = 5;
 		gbc_lblSecond.gridy = 0;
 		gbc_txtSleeptme.fill = 2 ;
@@ -349,17 +349,17 @@ public class LFS_GUI extends JFrame
 		gbc_txtSleeptme.gridx = 5 ;
 		gbc_txtSleeptme.gridy = 1 ;
 		contentPane.add( lblSecond , gbc_lblSecond ) ;
-
-		JLabel lblByte = new JLabel( "Byte" ) ;
-		GridBagConstraints gbc_lblByte = new GridBagConstraints() ;
-		gbc_lblByte.insets = new Insets(0, 0, 5, 0);
-		gbc_lblByte.gridx = 6;
-		gbc_lblByte.gridy = 0;
 		gbc_txtSleeptme.gridwidth = 2 ;
 		gbc_txtSleeptme.insets = new Insets( 0 , 0 , 5 , 5 ) ;
 		gbc_txtSleeptme.gridx = 0 ;
 		gbc_txtSleeptme.gridy = 2 ;
-		contentPane.add( lblByte , gbc_lblByte ) ;
+				
+				JLabel label_4 = new JLabel("Byte");
+				GridBagConstraints gbc_label_4 = new GridBagConstraints();
+				gbc_label_4.insets = new Insets(0, 0, 5, 5);
+				gbc_label_4.gridx = 1;
+				gbc_label_4.gridy = 2;
+				contentPane.add(label_4, gbc_label_4);
 		
 				GridBagConstraints gbc_cbByte = new GridBagConstraints() ;
 				gbc_cbByte.fill = 1 ;
@@ -387,7 +387,7 @@ public class LFS_GUI extends JFrame
 
 		tbOutputExcel = new JToggleButton( "Ouput Excel" ) ;
 		GridBagConstraints gbc_tbOutputExcel = new GridBagConstraints() ;
-		gbc_tbOutputExcel.insets = new Insets(0, 0, 5, 5) ;
+		gbc_tbOutputExcel.insets = new Insets(0, 0, 5, 0) ;
 		gbc_tbOutputExcel.gridx = 5 ;
 		gbc_tbOutputExcel.gridy = 2 ;
 		contentPane.add( tbOutputExcel , gbc_tbOutputExcel ) ;
@@ -399,7 +399,7 @@ public class LFS_GUI extends JFrame
 		gbc_label.gridy = 3 ;
 		contentPane.add( label , gbc_label ) ;
 
-		JLabel lblNode = new JLabel( "節點編號" ) ;
+		JLabel lblNode = new JLabel( "感測點編號" ) ;
 		GridBagConstraints gbc_lblNode = new GridBagConstraints() ;
 		gbc_lblNode.insets = new Insets( 0 , 0 , 5 , 5 ) ;
 		gbc_lblNode.gridx = 1 ;
@@ -429,7 +429,7 @@ public class LFS_GUI extends JFrame
 
 		JLabel lbloutputMark = new JLabel( "輸出選項" ) ;
 		GridBagConstraints gbc_lbloutputMark = new GridBagConstraints() ;
-		gbc_lbloutputMark.insets = new Insets(0, 0, 5, 5) ;
+		gbc_lbloutputMark.insets = new Insets(0, 0, 5, 0) ;
 		gbc_lbloutputMark.gridx = 5 ;
 		gbc_lbloutputMark.gridy = 3 ;
 		contentPane.add( lbloutputMark , gbc_lbloutputMark ) ;
@@ -486,7 +486,7 @@ public class LFS_GUI extends JFrame
 		JCheckBox chckbxNewCheckBox_7 = new JCheckBox( "輸出" ) ;
 		chkbOutputXls[0] = chckbxNewCheckBox_7 ;
 		GridBagConstraints gbc_chckbxNewCheckBox_7 = new GridBagConstraints() ;
-		gbc_chckbxNewCheckBox_7.insets = new Insets(0, 0, 5, 5) ;
+		gbc_chckbxNewCheckBox_7.insets = new Insets(0, 0, 5, 0) ;
 		gbc_chckbxNewCheckBox_7.gridx = 5 ;
 		gbc_chckbxNewCheckBox_7.gridy = 4 ;
 		contentPane.add( chckbxNewCheckBox_7 , gbc_chckbxNewCheckBox_7 ) ;
@@ -545,7 +545,7 @@ public class LFS_GUI extends JFrame
 		JCheckBox chckbxNewCheckBox = new JCheckBox( "輸出" ) ;
 		chkbOutputXls[1] = chckbxNewCheckBox ;
 		GridBagConstraints gbc_chckbxNewCheckBox = new GridBagConstraints() ;
-		gbc_chckbxNewCheckBox.insets = new Insets(0, 0, 5, 5) ;
+		gbc_chckbxNewCheckBox.insets = new Insets(0, 0, 5, 0) ;
 		gbc_chckbxNewCheckBox.gridx = 5 ;
 		gbc_chckbxNewCheckBox.gridy = 5 ;
 		contentPane.add( chckbxNewCheckBox , gbc_chckbxNewCheckBox ) ;
@@ -602,7 +602,7 @@ public class LFS_GUI extends JFrame
 		JCheckBox chckbxNewCheckBox_1 = new JCheckBox( "輸出" ) ;
 		chkbOutputXls[2] = chckbxNewCheckBox_1 ;
 		GridBagConstraints gbc_chckbxNewCheckBox_1 = new GridBagConstraints() ;
-		gbc_chckbxNewCheckBox_1.insets = new Insets(0, 0, 5, 5) ;
+		gbc_chckbxNewCheckBox_1.insets = new Insets(0, 0, 5, 0) ;
 		gbc_chckbxNewCheckBox_1.gridx = 5 ;
 		gbc_chckbxNewCheckBox_1.gridy = 6 ;
 		contentPane.add( chckbxNewCheckBox_1 , gbc_chckbxNewCheckBox_1 ) ;
@@ -659,7 +659,7 @@ public class LFS_GUI extends JFrame
 		JCheckBox chckbxNewCheckBox_2 = new JCheckBox( "輸出" ) ;
 		chkbOutputXls[3] = chckbxNewCheckBox_2 ;
 		GridBagConstraints gbc_chckbxNewCheckBox_2 = new GridBagConstraints() ;
-		gbc_chckbxNewCheckBox_2.insets = new Insets(0, 0, 5, 5) ;
+		gbc_chckbxNewCheckBox_2.insets = new Insets(0, 0, 5, 0) ;
 		gbc_chckbxNewCheckBox_2.gridx = 5 ;
 		gbc_chckbxNewCheckBox_2.gridy = 7 ;
 		contentPane.add( chckbxNewCheckBox_2 , gbc_chckbxNewCheckBox_2 ) ;
@@ -716,7 +716,7 @@ public class LFS_GUI extends JFrame
 		JCheckBox chckbxNewCheckBox_3 = new JCheckBox( "輸出" ) ;
 		chkbOutputXls[4] = chckbxNewCheckBox_3 ;
 		GridBagConstraints gbc_chckbxNewCheckBox_3 = new GridBagConstraints() ;
-		gbc_chckbxNewCheckBox_3.insets = new Insets(0, 0, 5, 5) ;
+		gbc_chckbxNewCheckBox_3.insets = new Insets(0, 0, 5, 0) ;
 		gbc_chckbxNewCheckBox_3.gridx = 5 ;
 		gbc_chckbxNewCheckBox_3.gridy = 8 ;
 		contentPane.add( chckbxNewCheckBox_3 , gbc_chckbxNewCheckBox_3 ) ;
@@ -773,7 +773,7 @@ public class LFS_GUI extends JFrame
 		JCheckBox chckbxNewCheckBox_4 = new JCheckBox( "輸出" ) ;
 		chkbOutputXls[5] = chckbxNewCheckBox_4 ;
 		GridBagConstraints gbc_chckbxNewCheckBox_4 = new GridBagConstraints() ;
-		gbc_chckbxNewCheckBox_4.insets = new Insets(0, 0, 5, 5) ;
+		gbc_chckbxNewCheckBox_4.insets = new Insets(0, 0, 5, 0) ;
 		gbc_chckbxNewCheckBox_4.gridx = 5 ;
 		gbc_chckbxNewCheckBox_4.gridy = 9 ;
 		contentPane.add( chckbxNewCheckBox_4 , gbc_chckbxNewCheckBox_4 ) ;
@@ -830,7 +830,7 @@ public class LFS_GUI extends JFrame
 		JCheckBox chckbxNewCheckBox_5 = new JCheckBox( "輸出" ) ;
 		chkbOutputXls[6] = chckbxNewCheckBox_5 ;
 		GridBagConstraints gbc_chckbxNewCheckBox_5 = new GridBagConstraints() ;
-		gbc_chckbxNewCheckBox_5.insets = new Insets(0, 0, 5, 5) ;
+		gbc_chckbxNewCheckBox_5.insets = new Insets(0, 0, 5, 0) ;
 		gbc_chckbxNewCheckBox_5.gridx = 5 ;
 		gbc_chckbxNewCheckBox_5.gridy = 10 ;
 		contentPane.add( chckbxNewCheckBox_5 , gbc_chckbxNewCheckBox_5 ) ;
@@ -887,7 +887,6 @@ public class LFS_GUI extends JFrame
 		JCheckBox chckbxNewCheckBox_6 = new JCheckBox( "輸出" ) ;
 		chkbOutputXls[7] = chckbxNewCheckBox_6 ;
 		GridBagConstraints gbc_chckbxNewCheckBox_6 = new GridBagConstraints() ;
-		gbc_chckbxNewCheckBox_6.insets = new Insets(0, 0, 0, 5);
 		gbc_chckbxNewCheckBox_6.gridx = 5 ;
 		gbc_chckbxNewCheckBox_6.gridy = 11 ;
 
