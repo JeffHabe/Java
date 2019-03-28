@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+<<<<<<< HEAD
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="libs/poi-scratchpad-3.16.jar"/>
 	<classpathentry kind="lib" path="libs/poi-ooxml-schemas-3.16.jar"/>
@@ -14,5 +15,9 @@
 	<classpathentry kind="lib" path="libs/log4j-1.2.17.jar"/>
 	<classpathentry kind="lib" path="libs/mysql-connector-java-5.1.32-bin.jar"/>
 	<classpathentry kind="lib" path="libs/xmlbeans-2.5.0.jar"/>
+=======
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="libs/mysql-connector-java-5.1.32-bin.jar"/>
+>>>>>>> 12462d21d3bdc6bc83b63b2eaeeac364a66be749
 	<classpathentry kind="output" path="bin"/>
 </classpath>

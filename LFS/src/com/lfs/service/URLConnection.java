@@ -58,9 +58,30 @@ public class URLConnection
       aDvalues = new GetData().ADdata(br, port, picByte);
       br.close();
       conn.disconnect();
+<<<<<<< HEAD
     }
     catch (java.net.ProtocolException e)
     {
+=======
+
+
+
+
+
+
+
+
+    }
+    catch (java.net.ProtocolException e)
+    {
+
+
+
+
+
+
+
+>>>>>>> 12462d21d3bdc6bc83b63b2eaeeac364a66be749
       System.err.println(sdf.format(new Date()) + " " + port + " ProtocolException " + e);
     }
     catch (IOException e)
